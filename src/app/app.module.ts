@@ -5,9 +5,10 @@ import { FormsModule } from "@angular/forms";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { SignUpComponent } from "./signup/signup.component";
+import { UserProfileComponent } from "./user-profile/user-profile.component";
 
 @NgModule({
-  declarations: [AppComponent, SignUpComponent],
+  declarations: [AppComponent, SignUpComponent, UserProfileComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
